@@ -1,0 +1,8 @@
+creds.txt
+sign_log.txt
+*.log
+__pycache__/
+*.pyc
+.env
+appshare_token.cache
+*_key_*.txt

@@ -1,0 +1,9 @@
+{
+  "games": [],
+  "log_to_file": true,
+  "_comment": {
+    "games": "留空=全部游戏签到，或指定 ['arknights', 'endfield']",
+    "log_to_file": "是否写入 sign_log.txt",
+    "did": "已改环境变量 SKLAND_DID（防 CI 机房 IP 风控的预注册数美指纹）。失效时本地生成：python3 -c \"import skland_sign as s; print(s.gen_sm_did())\""
+  }
+}
